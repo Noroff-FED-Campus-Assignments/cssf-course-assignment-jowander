@@ -18,6 +18,19 @@ $black:    #000;
 $primary: $green;
 $secondary: $yellow;
 
+// Navbar text color
+.navbar-brand {
+    --bs-navbar-brand-color: #fff;
+}
+
+.navbar-nav {
+ 
+    --bs-navbar-active-color: #ffc107;
+}
+
+.nav-link {
+    --bs-nav-link-color: #fff;
+}
 // Import bootstrap
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
